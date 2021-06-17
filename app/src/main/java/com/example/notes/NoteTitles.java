@@ -45,9 +45,9 @@ public class NoteTitles extends Fragment {
             TextView noteTitle = (TextView) viewBox.findViewById(R.id.note_title);
             TextView noteTheme = (TextView) viewBox.findViewById(R.id.note_theme);
             TextView noteTime = (TextView) viewBox.findViewById(R.id.note_time);
-            noteTitle.setText(String.format(Locale.getDefault(), "%s", "Title"));
-            noteTheme.setText(String.format(Locale.getDefault(), "%s", "Title"));
-            noteTime.setText(String.format(Locale.getDefault(), "%s", "Title"));
+            noteTitle.setText(String.format(Locale.getDefault(), "%s", "название"));
+            noteTheme.setText(String.format(Locale.getDefault(), "%s", "тема"));
+            noteTime.setText(String.format(Locale.getDefault(), "%s", "время"));
             linear.addView(viewBox);
         });
         return view;
