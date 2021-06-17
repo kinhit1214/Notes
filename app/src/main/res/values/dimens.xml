@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_size_title_note">30sp</dimen>
+    <dimen name="margin_time">10dp</dimen>
+    <dimen name="margin_theme">10dp</dimen>
+</resources>
